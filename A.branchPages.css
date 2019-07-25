@@ -10,9 +10,17 @@ p {
   font-family: Verdana, sans-serif;
 }
 
-margin {
-  margin-left: 90px;
-  margin-right: 90px;
+.margin {
+  margin-left: 100px;
+  margin-right: 100px;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+.border{
+  border-left-style: solid;
+  border-left-width: 90px;
+  border-left-color: #001b3a;
+  border-right-style:solid;
+  border-right-width: 90px;
+  border-left-color: #001b3a;
 }
