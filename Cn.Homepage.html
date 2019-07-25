@@ -1,0 +1,96 @@
+<!-- <head>
+    <link rel="stylesheet" href="JJDepressionCSS.css"/>
+</head> -->
+<!--DOCTYPE <!DOCTYPE html-->
+
+<html lang="en" dir="ltr">
+<head>
+<link rel="stylesheet" href="C.Homepage.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<div><img src="SHE HEALTH LOGO.png" width="360" height="245"></img></div>
+
+<nav>
+        <div class="active">
+            <ul>
+              <li><a href="JJDepression.html">Depression</a></li>
+              <li><a href="A.HerADHD.html">ADHD</a></li>
+              <li><a href="GherAnxiety.html">Anxiety</a></li>
+              <li><a href="JJResources.html">Resources</a></li>
+              <li><a href="C.Refrences.html">Refrences</a></li>
+            </ul>
+          </div>
+      </nav>
+
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <a href="https://theweek.com/articles/853321/dont-have-earn-mental-health-struggles">
+  <img src="A.image1.webp" alt="blurry girl" style="width:100%" height="500px">
+  <div class="text">It's ok to not be ok</div>
+  </a>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <a href="https://www.sciencedaily.com/news/mind_brain/depression/">
+  <img src="A.hoo.jpg" alt="man on laptop with clock" style="width:100%" height="500px">
+  <div class="text">Latest articles on depression</div>
+</a>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <a href="https://www.nytimes.com/topic/subject/mental-health-and-disorders">
+  <img src="A.mentall.jpg" alt:"scrabble pieces spelling 'mental health'" style="width:100%" height="500px">
+  <div class="text">New York Times latest mental health news</div>
+</a>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+  var slideIndex = 1;
+    showSlides(slideIndex);
+      function plusSlides(n) {
+          showSlides(slideIndex += n);
+}
+        function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
