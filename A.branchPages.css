@@ -1,0 +1,18 @@
+h1 {
+  font-family: monospace, sans-serif;
+  text-align: left;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 12px;
+  font-family: Verdana, sans-serif;
+}
+
+margin {
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
