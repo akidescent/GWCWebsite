@@ -25,10 +25,10 @@ p {
 .border{
   border-left-style: solid;
   border-left-width: 90px;
-  border-left-color: #001b3a;
   border-right-style:solid;
   border-right-width: 90px;
   border-left-color: #001b3a;
+  border-right-color: #001b3a;
 }
 
 
