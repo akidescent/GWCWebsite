@@ -15,7 +15,9 @@ p {
   margin-right: 350px;
   margin-top: 50px;
   margin-bottom: 50px;
+  margin: auto;
 }
+
 .border{
 
   border-right-color: #858585;
