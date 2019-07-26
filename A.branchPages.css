@@ -11,16 +11,18 @@ p {
 }
 
 .margin {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 350px;
+  margin-right: 350px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 .border{
+
+  border-right-color: #858585;
   border-left-style: solid;
   border-left-width: 90px;
-  border-left-color: #001b3a;
-  border-right-style:solid;
+  border-left-color: #858585;
+  border-right-style: solid;
   border-right-width: 90px;
-  border-left-color: #001b3a;
+
 }
