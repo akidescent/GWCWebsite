@@ -10,13 +10,13 @@ p {
   font-family: Verdana, sans-serif;
 }
 
-.margin {
+margin {
   margin-left: 350px;
   margin-right: 350px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.border{
+border{
 
   border-right-color: #858585;
   border-left-style: solid;
