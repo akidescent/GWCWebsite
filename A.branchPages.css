@@ -17,10 +17,12 @@ p {
   margin-bottom: 50px;
 }
 .border{
+
+  border-right-color: #858585;
   border-left-style: solid;
   border-left-width: 90px;
-  border-left-color: #BABABA;
-  border-right-style:solid;
+  border-left-color: #858585;
+  border-right-style: solid;
   border-right-width: 90px;
-  border-right-color: #BABABA;
+
 }
