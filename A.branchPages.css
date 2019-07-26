@@ -19,9 +19,7 @@ p {
   margin-right: 100px;
   margin-top: 50px;
   margin-bottom: 50px;
-<<<<<<< HEAD
   margin: auto;
-=======
   width: 93%;
   margin: -2% auto 0% auto;
   position: absolute;
@@ -35,10 +33,7 @@ p {
   border-left-width: 90px;
   border-right-style:solid;
   border-right-width: 90px;
-<<<<<<< HEAD
   border-left-color: #001b3a;
-=======
->>>>>>> 1c47dcf13682c1f416425247a19c058c72a3bd6c
   border-right-color: #001b3a;
 }
 
