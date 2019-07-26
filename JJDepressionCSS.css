@@ -1,15 +1,18 @@
+body{
+  background-color:#CCDBEE;
+}
 h1 {
   text-align:center;
   font-size: 38px;
 }
 
 h2 {
-  text-align:center;
+  text-align:left;
   font-size: 18px;
 }
 
 p {
-  text-align:center;
+  text-align:left;
   font-size: 18px;
 }
 
@@ -25,13 +28,16 @@ p {
 }
 
 
-h2{
-
-text-align: center;
-
+.bullet ul{
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CCDBEE;
+  display: block;
 }
 
-ul {
+.active ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -39,7 +45,7 @@ ul {
   background-color: #333;
 }
 
-li {
+.active li {
   float: left;
 }
 
@@ -53,4 +59,21 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
