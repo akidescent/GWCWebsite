@@ -13,10 +13,9 @@ p {
   font-family: Verdana, sans-serif;
 }
 
-.margin {
-
-  margin-left: 100px;
-  margin-right: 100px;
+margin {
+  margin-left: 350px;
+  margin-right: 350px;
   margin-top: 50px;
   margin-bottom: 50px;
   margin: auto;
@@ -25,10 +24,8 @@ p {
   position: absolute;
   top: 0;
   bottom: 0;
->>>>>>> 1c47dcf13682c1f416425247a19c058c72a3bd6c
 }
-
-.border{
+border{
   border-left-style: solid;
   border-left-width: 90px;
   border-right-style:solid;
