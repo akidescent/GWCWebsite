@@ -2,59 +2,55 @@ h1 {
   text-align: center;
 }
 
+
 .list{
   margin: auto;
   width: 50%;
 
 }
 
+
 .list h2 {
   text-align: center;
 }
 
 
-h2{
-  text-align:center;
+.active li:hover{
+  background-color: #FFFFFF
 }
 
-nav {
-  margin: auto;
-  width: 100%;
-  text-align: center;
-}
 .active ul {
   list-style-type: none;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
   overflow: hidden;
   background-color: #333;
-  list-style-type: none;
-  background-color: #FFFFFF;
-  text-align: center;
-  display: inline-block;
 }
 
-.active li{
-  list-style-type: none;
-  margin: 10px;
-  padding: 0px;
-  overflow: hidden;
-  background-color: black;
+
+.active li {
   float: left;
 }
 
 .active li a {
-  display: inline-block;
+  display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
+
 .active li a:hover {
-  background-color: grey;
+  background-color: #111;
 }
 
-.body {
-  line-height: 50px;
+.bullet ul{
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  display: block;
+
 }
