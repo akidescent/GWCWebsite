@@ -90,6 +90,14 @@ img{
     background-color: #111;
   }
 
+  ul.bullet {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    display: block;
+}
   /* p.serif {
     font-family: "Times New Roman", Times, serif;
   }
