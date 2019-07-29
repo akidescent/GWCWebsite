@@ -10,6 +10,9 @@ p {
   font-family: Verdana, sans-serif;
 }
 
+body {
+  background-color: #FAF0E6
+}
 .margin {
   margin-left: 100px;
   margin-right: 100px;
@@ -70,7 +73,7 @@ img{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FFFFFF;
+    background-color: #FAF0E6;
   }
 
 
@@ -95,8 +98,9 @@ img{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FFFFFF;
+    background-color: #FAF0E6;
     display: block;
+    text-align: center;
 }
   /* p.serif {
     font-family: "Times New Roman", Times, serif;
