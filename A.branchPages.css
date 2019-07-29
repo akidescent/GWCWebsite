@@ -1,9 +1,5 @@
 h1 {
-<<<<<<< HEAD
   font-family: monospace;
-=======
-  font-family:sans-serif;
->>>>>>> 03c6cf3799a9d8e4ebd4efac237e5593a20bf803
   text-align: left;
   font-size: 42px;
   font-weight: bold;
@@ -22,7 +18,6 @@ p {
   margin-right: 500px;
   margin-top: 50px;
   margin-bottom: 50px;
-<<<<<<< HEAD
   margin: auto;
   width: 93%;
   margin: -2% auto 0% auto;
@@ -30,8 +25,6 @@ p {
   top: 0;
   bottom: 0;
 
-=======
->>>>>>> 03c6cf3799a9d8e4ebd4efac237e5593a20bf803
 }
 
 
@@ -210,4 +203,3 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-
