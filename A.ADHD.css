@@ -1,7 +1,7 @@
 f {
   color:black;
   font-size:20px;
-  font-family:sans-serif;
+  font-family:monospace;
 }
 
 img {
@@ -45,7 +45,6 @@ ul.body{
   padding: 0;
   overflow: hidden;
   background-color: #FFFFFF;
-  font-family:sans-serif;
 }
 
 
