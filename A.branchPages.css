@@ -11,22 +11,15 @@ p {
 }
 
 
-margin {
+.margin {
 
 
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 500px;
+  margin-right: 500px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-border{
-  border-left-style: solid;
-  border-left-width: 90px;
-  border-left-color: #001b3a;
-  border-right-style: solid;
-  border-right-width: 90px;
-  border-left-color: #001b3a;
-}
+
 
 
 
