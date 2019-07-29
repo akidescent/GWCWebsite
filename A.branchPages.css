@@ -1,8 +1,5 @@
-
-
-
 h1 {
-  font-family: monospace, sans-serif;
+  font-family:sans-serif;
   text-align: left;
   font-size: 42px;
   font-weight: bold;
@@ -10,20 +7,23 @@ h1 {
 
 p {
   font-size: 12px;
-  font-family: Verdana, sans-serif;
+  font-family:sans-serif;
 }
 
-.margin {
+
+margin {
+
+
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.border{
+border{
   border-left-style: solid;
   border-left-width: 90px;
   border-left-color: #001b3a;
-  border-right-style:solid;
+  border-right-style: solid;
   border-right-width: 90px;
   border-left-color: #001b3a;
 }
@@ -203,3 +203,4 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
