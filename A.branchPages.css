@@ -14,27 +14,18 @@ p {
 }
 
 .margin {
-
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 50px;
   margin-bottom: 50px;
-  margin: auto;
-  width: 93%;
-  margin: -2% auto 0% auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
->>>>>>> 1c47dcf13682c1f416425247a19c058c72a3bd6c
 }
-
 .border{
   border-left-style: solid;
   border-left-width: 90px;
+  border-left-color: #001b3a;
   border-right-style:solid;
   border-right-width: 90px;
   border-left-color: #001b3a;
-  border-right-color: #001b3a;
 }
 
 
@@ -130,8 +121,7 @@ img{
 
 body {font-family: monospace; margin:0}
 .mySlides {display: none}
-img {vertical-align: middle;
-    }
+img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
   margin: auto;
