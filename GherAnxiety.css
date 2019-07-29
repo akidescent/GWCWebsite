@@ -12,7 +12,7 @@ margin-right: auto;
 }
 
 body {
-  background-color: #FAF0E6
+  background-color: #FAF0E6;
 }
 
 h1 {
@@ -54,7 +54,7 @@ ul.body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #FFFFFF;
+  background-color: #FAF0E6;
 }
 li {
   float: left;
@@ -65,7 +65,7 @@ li {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #CCDBEE;
+  background-color: #FAF0E6;
   display: block;
 }
 
