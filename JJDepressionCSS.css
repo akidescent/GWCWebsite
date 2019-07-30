@@ -78,4 +78,5 @@ p {
 .bullet ul {
   display: block;
   list-style: circle;
+  line-height: 1.5;
 }
