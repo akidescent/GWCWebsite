@@ -1,13 +1,13 @@
 head {
-font-size: 38px;
-text-align: center;
+  font-size: 38px;
+  text-align: center;
 }
 
 
 img {
-display: block;
-margin-left: auto;
-margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -20,24 +20,23 @@ h1 {
 }
 
 p {
-text-align: center;
+  text-align: center;
 }
 
 .list{
   margin: auto;
   width: 50%;
-
 }
 
 
-.list h2 {
+h2 {
   text-align: center;
 }
 
 
 h2{
 
-text-align: center;
+  text-align: center;
 
 }
 
@@ -54,8 +53,9 @@ ul.body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #FFFFFF;
+  background-color: #FAF0E6;
 }
+
 li {
   float: left;
 }
@@ -73,7 +73,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 14px;
   text-decoration: none;
 }
 
