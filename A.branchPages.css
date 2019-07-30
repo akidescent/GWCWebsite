@@ -12,7 +12,7 @@ p {
 
 
 .margin {
-  
+
 
 }
 
@@ -90,9 +90,17 @@ img{
   } */
 
   .pix {
-    width:500px;
-    height:500px;
+    width:400px;
+    height:400px;
     align: middle;
+    border-width: 10px;
+    border-color: #BABABA
+  }
+
+  .pic {
+    width:400px;
+    height:400px;
+    align: left;
     border-width: 10px;
     border-color: #BABABA
   }
