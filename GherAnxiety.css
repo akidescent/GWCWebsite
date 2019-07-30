@@ -11,6 +11,9 @@ margin-right: auto;
 
 }
 
+body {
+  background-color: #FAF0E6
+}
 
 h1 {
   text-align: center;
@@ -55,6 +58,15 @@ ul.body {
 }
 li {
   float: left;
+}
+
+.bullet ul{
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CCDBEE;
+  display: block;
 }
 
 li a {

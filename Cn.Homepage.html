@@ -5,55 +5,72 @@
 
 <html lang="en" dir="ltr">
 <head>
+  <link rel="stylesheet" href="A.branchPages.css">
   <link rel="stylesheet" href="Cn.Homepage.css"/>
+  <link href="Cn.Homepage.js"/>
   <link href="A.articles.js">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
 </head>
-
+<style>
+          body {
+            margin: 50px 280px 50px 280px;
+          }
+        </style>
 <body>
-
-<div><img src="SHE HEALTH LOGO.png" width="360" height="245"></img></div>
+<margin>
+<div align="center"><a href="Cn.Homepage.html"><img src ="SHE HEALTH LOGO.png" alt="logo" width="360" height="245" class="center"></a></div>
 
 <nav>
-        <div class="active">
-            <ul>
-              <li><a href="JJDepression.html">Depression</a></li>
-              <li><a href="A.HerADHD.html">ADHD</a></li>
-              <li><a href="GherAnxiety.html">Anxiety</a></li>
-              <li><a href="JJResources.html">Resources</a></li>
-              <li><a href="C.Refrences.html">Refrences</a></li>
-            </ul>
-          </div>
-      </nav>
+  <div class="active">
+      <ul>
+        <li><a href="Cn.Homepage.html">Home</a></li>
+        <li><a href="JJDepression.html">Depression</a></li>
+        <li><a href="A.HerADHD.html">ADHD</a></li>
+        <li><a href="GherAnxiety.html">Anxiety</a></li>
+        <li><a href="JJResources.html">Resources</a></li>
+        <li><a href="C.References.html">References</a></li>
+        <li><a href="GaboutHer.html">About Us</a></li>
+      </ul>
+  </div>
+</nav>
 
 
 
 
-<div class="slideshow-container">
+<div class="slideshow-container" onLoad= "showSlides(1);">
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <a href="https://theweek.com/articles/853321/dont-have-earn-mental-health-struggles">
-  <img src="A.image1.webp" alt="blurry girl" style="width:100%" height="500px">
-  <div class="text">It's ok to not be ok</div>
-  </a>
+
+  <a href="https://www.verywellmind.com/common-causes-of-depression-1066772">
+    <img src="A.depression.png" alt="depression" style="width:100%" height="500px">
+      <div class="text">Depression</div>
+      </a>
+
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <a href="https://www.sciencedaily.com/news/mind_brain/depression/">
-  <img src="A.hoo.jpg" alt="man on laptop with clock" style="width:100%" height="500px">
-  <div class="text">Latest articles on depression</div>
+
+  <a href="https://www.verywellmind.com/adhd-overview-4157275">
+  <img src="A.adhd.png" alt="ADHD" style="width:100%" height="500px">
+  <div class="text">ADHD</div>
 </a>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <a href="https://www.nytimes.com/topic/subject/mental-health-and-disorders">
-  <img src="A.mentall.jpg" alt:"scrabble pieces spelling 'mental health'" style="width:100%" height="500px">
-  <div class="text">New York Times latest mental health news</div>
-</a>
+
+  <a href="https://www.verywellmind.com/dsm-5-criteria-for-generalized-anxiety-disorder-1393147">
+    <img src="A.anxietyarticle.png" alt="signs of anxiety" style="width:100%" height="500px">
+    <div class="text">Anxiety</div>
+    </a>
 </div>
+
+
+
+
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -66,6 +83,24 @@
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
+
+<h2> Mission Statement</h2>
+  <p> We created this website to bring awareness to mental health for women. Statistics show more than one in five women experience mental health conditions such as depression or anxiety within the US.
+     However many of these conditions go undiagonsed in women since these symptoms may present themselves in different ways than men.
+      By creating this website we hope to promote further awareness and insight into how mental illnessess and how mental health affects different aspects of daily life.</p>
+
+  <h2>Lifelines</h2>
+  <ul class="bullet">
+  <strong>National Suicide Prevention Lifeline<br></strong>
+  <a href="tel:1-800-273-8255">1-800-273-TALK (8255)</a><br>
+  <strong>Office on Women's Health Helpline<br>
+  <a href="tel:1-800-994-9662">1-800-994-9662</a><br>
+  <strong>SAMHSA Treatment Referral Helpline<br></strong>
+  <a href="tel:1-877-726-4727">1-877-SAMSHA7 (4727)</a><br>
+  <strong>NAMI Helpline<br></strong>
+  <a href="tel:1-800-950-6264">1-800-950-NAMI (6264)</a></ul>
+    <hr>
+
 
 <script>
   var slideIndex = 1;
@@ -91,7 +126,27 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
 </script>
+
+
+
+
+
 
 </body>
 </html>

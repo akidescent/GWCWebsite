@@ -12,6 +12,9 @@ h1 {
   text-align: center;
 }
 
+body {
+  background-color: #FAF0E6
+}
 
 h2{
 
@@ -49,4 +52,12 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
 }
