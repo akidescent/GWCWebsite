@@ -11,7 +11,12 @@ margin-right: auto;
 
 }
 
-center {
+
+body {
+  background-color: #FAF0E6
+}
+
+h1 {
   text-align: center;
   font-size: 38px;
 }
